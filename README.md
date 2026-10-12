@@ -1,5 +1,9 @@
 # Enterprise VLAN Segmentation with Microsoft Intune & Entra ID Integration
 
+## TL;DR
+
+Reproducible Cisco IOS XE VLAN segmentation templates with Ansible drift management and Entra ID/RADIUS reference integration. Goal: production-style network segmentation with a documented SIEM integration boundary.
+
 Reproducible Cisco IOS XE templates, Ansible drift management, and a Microsoft Graph compliance-to-RADIUS reference integration.
 
 **Status:** engineering templates with offline validation. Qualify the switch model, IOS release, NAC adapter and tenant policies before production. No switches or tenant resources have been modified. The [acceptance runbook](docs/validation.md) defines the remaining deployment gates.
